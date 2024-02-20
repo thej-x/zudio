@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.nav-item{
+    color: white;
+
+}
+.navbar-toggler-icon{
+
+        position: relative;
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        color: transparent;
+        z-index: 3;
+    
+}
+.zudio p-3
+{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.footer container-fluid bg-dark footer-expand-md text-white text-center{
+    height: 50px;
+    color: white;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+}
+/* Media Query for Small Devices */
+@media (max-width: 576px) {
+    .footer.container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .footer .row {
+      flex-wrap: wrap;
+    }
+    .footer .col {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  
+  
